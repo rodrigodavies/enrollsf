@@ -12,6 +12,7 @@ body {
 	background-color: #eee;
 	font-size: 1.8em;
 	line-height: 1.5em;
+	padding: 0; // override Bootstrap defaults
 	}
 
 a:hover {
@@ -21,9 +22,7 @@ a:hover {
 .stripe {
 	height: inherit;
 	display: table;
-	margin-left: auto;
-	margin-right: auto;
-
+	margin: 0 auto;
 }
 
 .wrapper {
@@ -98,8 +97,9 @@ img {
 
 /* Responsive container settings */
 
-/* iPhone 5 only */
-@media screen and (device-aspect-ratio: 40/71) {
+/* iPhone 5, iPhone <= 4 */
+
+@media (max-width: 480px), screen and (device-aspect-ratio: 40/71) {
 
 	.stripe {
 	height: 120%;
@@ -117,58 +117,19 @@ img {
 	}
 
 	.prompt {
-		line-height: 1.8em;
+		line-height: 1.5em;
 		font-size: 0.8em;	
 	}
 
 }
 
-
 /* Tablets and horizontal phones */
 
 @media (min-width: 481px) and (max-width: 979px) {
 
-	body {
-		padding: 0; // override Bootstrap defaults
-	}
-
 	.wrapper {
-		vertical-align: top;
     	padding: 50px 15px 0px 15px;
     	line-height: 1em;
-	}
-
-	.prompt {
-	line-height: 1.8em;	
-	}
-
-}
-
-/* Vertical phones ex iPhone 5*/
-
-@media (max-width: 480px) {
-
-	body {
-		padding: 0; // override Bootstrap defaults
-	}
-
-	.stripe {
-	height: 120%;
-	}
-
-	.wrapper {
-		vertical-align: top;
-    	padding: 50px 15px 0px 15px;
-	}
-
-	.prompt {
-	line-height: 1.5em;	
-	font-size: 0.8em;
-	}
-
-	.small-text {
-	margin-left: 5px;
-	font-size: 0.3em;
 	}
 
 }
