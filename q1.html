@@ -3,9 +3,9 @@ layout: default
 title: EnrollSF
 ---
 
-				Do you have insurance?
-					<div class="btn-line">
-						<a href="got_ins.html"><button class="btn btn-large" type="button">Yes</button></a>
-						<a href="no_ins.html"><button class="btn btn-large" type="button">No</button></a>
-						<a href="dontknow.html"><button class="btn btn-large" type="button">I don't know</button></a>
-					</div>
+Do you have insurance?
+	<div class="btn-line">
+		{% include btn link="got_ins.html" label="Yes" %}
+		{% include btn link="no_ins.html" label="No" %}
+		{% include btn link="dontknow.html" label="I don't know" %}
+	</div>
