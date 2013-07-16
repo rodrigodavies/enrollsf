@@ -119,19 +119,35 @@ a:hover {
 	vertical-align: middle;
 }
 
-.credit {
-	float: right;
-	font-size: 0.5em;
-	color: #ddd;
-	margin-right: 10px;
-}
-
 .navig a, .navig a:visited {
 	color: #fff;
 }
 
 .navig a:hover {
 	color: #ddd;
+}
+
+.footer {
+	position: fixed;
+	vertical-align: middle;
+	padding-right: 10px;
+	top: 95%;
+	width: 100%;
+	text-align: right;
+	height: 50px;
+	line-height: 40px;
+	background-color: #eee;
+	opacity: 0.8;
+}
+
+.footer .credit {
+	font-size: 0.4em;
+	color: #333;
+	margin-right: 10px;
+}
+
+.footer a, .footer a:visited {
+	color: #333;
 }
 
 .btn-large {
