@@ -90,9 +90,11 @@ a:hover {
 }
 
 .span4 img {
-	padding-bottom: 8px;
-	width: 100%;
-	height: auto;
+	display: block;
+	margin: 6% auto;
+	width: auto;
+	height: 100px;
+	text-align: center;
 }
 
 /* Elements */
@@ -100,15 +102,37 @@ a:hover {
 .navig {
 	position: fixed;
 	vertical-align: middle;
+	padding-left: 5px;
 	top: 0%;
 	height: 40px;
 	width: 100%;
-	background-color: #ccc;
+	background-color: rgb(194, 0, 0);
+	color: #fff;
 	opacity: 0.8;
 	line-height: 40px;
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
      -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
           box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navig img {
+	height: 30px;
+	vertical-align: middle;
+}
+
+.credit {
+	float: right;
+	font-size: 0.5em;
+	color: #ddd;
+	margin-right: 10px;
+}
+
+.navig a, .navig a:visited {
+	color: #fff;
+}
+
+.navig a:hover {
+	color: #ddd;
 }
 
 .btn-large {
@@ -120,6 +144,7 @@ a:hover {
 .small-text {
 	margin-left: 5px;
 	font-size: 0.5em;
+	vertical-align: middle;
 }
 
 ol, ul {
