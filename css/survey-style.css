@@ -124,6 +124,10 @@ img {
 
 @media (min-width: 481px) and (max-width: 979px) {
 
+	body {
+		padding: 0; // override Bootstrap defaults
+	}
+
 	.wrapper {
 		vertical-align: top;
     	padding: 50px 15px 0px 15px;
@@ -139,6 +143,10 @@ img {
 /* Vertical phones ex iPhone 5*/
 
 @media (max-width: 480px) {
+
+	body {
+		padding: 0; // override Bootstrap defaults
+	}
 
 	.stripe {
 	height: 120%;
