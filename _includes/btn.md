@@ -1,0 +1,1 @@
+<a href="{{ include.link }}"><button class="btn btn-large" type="button">{{ include.label }}</button></a>
