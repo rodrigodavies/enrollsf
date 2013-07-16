@@ -31,7 +31,7 @@ a:hover {
 	max-width: 900px;
 }
 
-/* ACA text images and buttons */
+/* Text, images and buttons */
 
 .prompt {
 	text-align: left; 
@@ -47,13 +47,53 @@ a:hover {
 	display: inline;
 }
 
+.prompt img, .back img {
+	width: 40px;
+	height: auto;	
+}
+
 .back img {
 	display: block;
 	margin: 10px auto;
 	text-align: center;
 }
 
+/* Front page */
 
+.row-fluid .span4 {
+	padding: 1% 2%;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	margin-bottom: 10px; 
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.welcome {
+	font-size: 0.9em;
+	line-height: 1.2em;	
+	padding-bottom: 2%;
+}
+
+.front {
+	font-size: 0.7em;
+	line-height: 1.2em;
+	text-align: justify;
+	min-height: 30px;
+	}
+
+.span4 h3 {
+	text-align: center;
+}
+
+.span4 img {
+	padding-bottom: 8px;
+	width: 100%;
+	height: auto;
+}
 
 /* Elements */
 
@@ -90,10 +130,6 @@ ol li {
 	line-height: 1.8em;
 }
 
-img {
-	width: 40px;
-	height: auto;
-}
 
 /* Responsive container settings */
 
@@ -121,6 +157,9 @@ img {
 		font-size: 0.8em;	
 	}
 
+	.row-fluid .span4 img {
+		display: none;
+	}
 }
 
 /* Tablets and horizontal phones */
@@ -130,6 +169,10 @@ img {
 	.wrapper {
     	padding: 50px 15px 0px 15px;
     	line-height: 1em;
+	}
+
+	.row-fluid .span4 img {
+		display: none;
 	}
 
 }
