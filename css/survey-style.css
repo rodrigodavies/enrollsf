@@ -121,7 +121,7 @@ a:hover {
 
 .navig a, .navig a:visited {
 	color: #fff;
-}
+}	
 
 .navig a:hover {
 	color: #ddd;
@@ -130,11 +130,10 @@ a:hover {
 .footer {
 	position: fixed;
 	vertical-align: middle;
-	padding-right: 10px;
 	top: 95%;
 	width: 100%;
 	text-align: right;
-	height: 50px;
+	height: 40px;
 	line-height: 40px;
 	background-color: #eee;
 	opacity: 0.8;
@@ -142,8 +141,8 @@ a:hover {
 
 .footer .credit {
 	font-size: 0.4em;
+	padding-right: 10px;
 	color: #333;
-	margin-right: 10px;
 }
 
 .footer a, .footer a:visited {
@@ -179,11 +178,13 @@ ol li {
 
 	.stripe {
 	height: 120%;
+	width: 100%;
 	}
 
 	.wrapper {
 		vertical-align: top;
     	padding: 50px 15px 0px 15px;
+    	margin-bottom: 10px;
     	line-height: 0.5em;
 	}
 
@@ -197,9 +198,18 @@ ol li {
 		font-size: 0.8em;	
 	}
 
+	.prompt .btn-line .btn {
+		display: block;
+	}
+
+	.btn {
+		width: 100%;
+	}
+
 	.row-fluid .span4 img {
 		display: none;
 	}
+
 }
 
 /* Tablets and horizontal phones */
@@ -214,5 +224,6 @@ ol li {
 	.row-fluid .span4 img {
 		display: none;
 	}
+
 
 }
