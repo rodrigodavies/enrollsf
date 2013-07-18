@@ -88,6 +88,10 @@ a:hover {
 	text-align: justify;
 	}
 
+.mobile-front {
+	display: none;
+}
+
 .span4 h3 {
 	text-align: center;
 }
@@ -192,6 +196,17 @@ ol li {
     	line-height: 0.5em;
 	}
 
+	.row-fluid .span4 {
+	padding: 1% 2%;
+	background-color: transparent;
+	border: none;
+	border-radius: none;
+	margin-bottom: 10px; 
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
 	.small-text {
 	margin-left: 5px;
 	font-size: 0.3em;
@@ -212,6 +227,17 @@ ol li {
 
 	.row-fluid .span4 img {
 		display: none;
+	}
+
+	.row-fluid .span4 {
+	display: none;
+	}
+
+	.mobile-front {
+	display: block;
+	font-size: 0.9em;
+	line-height: 1.2em;
+	text-align: justify;
 	}
 
 }
