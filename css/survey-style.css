@@ -38,6 +38,13 @@ a:hover {
 	line-height: 2em;	
 	}
 
+.prompt-reasons {
+	line-height: 1.5em;
+	font-size: 0.8em;	
+	margin-top: 50px; 
+	}
+
+
 .prompt .btn {
 	display: block;
 	margin: 10px auto;
@@ -217,6 +224,10 @@ ol li {
 		font-size: 0.8em;	
 	}
 
+	.prompt-reasons {
+		margin-top: 0; 
+	}
+
 	.prompt .btn-line .btn {
 		display: block;
 	}
@@ -253,6 +264,10 @@ ol li {
 
 	.row-fluid .span4 img {
 		display: none;
+	}
+
+	.prompt-reasons {
+		margin-top: 0; 
 	}
 
 
