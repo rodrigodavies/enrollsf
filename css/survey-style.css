@@ -35,8 +35,7 @@ a:hover {
 /* Text, images and buttons */
 
 .prompt {
-	text-align: left; 
-	line-height: 2em;	
+	text-align: left; 	
 	}
 
 .prompt ol {
@@ -219,16 +218,11 @@ ol li {
 	}
 
 	.prompt {
-		line-height: 1.5em;
 		font-size: 0.8em;	
 	}
 
 	.prompt ol {
 	font-size: 1em;
-	}
-
-	.prompt-reasons {
-		margin-top: 0; 
 	}
 
 	.prompt .btn-line .btn {
@@ -268,10 +262,5 @@ ol li {
 	.row-fluid .span4 img {
 		display: none;
 	}
-
-	.prompt-reasons {
-		margin-top: 0; 
-	}
-
 
 }
