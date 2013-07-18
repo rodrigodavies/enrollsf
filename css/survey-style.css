@@ -47,6 +47,10 @@ a:hover {
 	display: inline;
 }
 
+.prompt .btn-line {
+	text-align: center;
+}
+
 .prompt img, .back img {
 	width: 40px;
 	height: auto;	
