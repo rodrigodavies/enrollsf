@@ -29,6 +29,7 @@ a:hover {
 	display:table-cell; 
 	vertical-align: middle;
 	max-width: 900px;
+	padding: 50px 0 0 0;
 }
 
 /* Text, images and buttons */
@@ -38,14 +39,9 @@ a:hover {
 	line-height: 2em;	
 	}
 
-.prompt-reasons {
-	line-height: 1.5em;
-	font-size: 0.8em;	
-	margin-top: 50px; 
-	}
-
-.prompt-reasons ol {
+.prompt ol {
 	margin: 10px 0 10px 0px;
+	font-size: 0.8em;
 }
 
 .prompt .btn {
@@ -215,7 +211,7 @@ ol li {
   -webkit-box-shadow: none;
      -moz-box-shadow: none;
           box-shadow: none;
-}
+	}
 
 	.small-text {
 	margin-left: 5px;
@@ -225,6 +221,10 @@ ol li {
 	.prompt {
 		line-height: 1.5em;
 		font-size: 0.8em;	
+	}
+
+	.prompt ol {
+	font-size: 1em;
 	}
 
 	.prompt-reasons {
