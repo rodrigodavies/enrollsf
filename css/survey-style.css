@@ -1,0 +1,296 @@
+/* Survey stylesheet by rodrigodavies */
+
+/* Scaffolding for full-screen pages */
+
+html, body {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+body {
+	background-color: #eee;
+	font-size: 1.8em;
+	line-height: 1.5em;
+	padding: 0; // override Bootstrap defaults
+	}
+
+a:hover {
+	text-decoration: none;
+}
+
+.stripe {
+	height: inherit;
+	display: table;
+	margin: 0 auto;
+}
+
+.wrapper {
+	display:table-cell; 
+	vertical-align: middle;
+	max-width: 900px;
+	padding: 50px 0 0 0;
+}
+
+/* Text, images and buttons */
+
+.prompt {
+	text-align: left; 	
+	}
+
+.prompt ol {
+	margin: 10px 0 10px 0px;
+	font-size: 0.8em;
+}
+
+.prompt .btn {
+	display: block;
+	margin: 10px auto;
+}
+
+.prompt .btn-line .btn {
+	display: inline;
+}
+
+.prompt .btn-line {
+	text-align: center;
+}
+
+.prompt img, .back img {
+	width: 40px;
+	height: auto;	
+}
+
+.back img {
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+}
+
+/* Front page */
+
+.row-fluid .span4 {
+	padding: 1% 2%;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	margin-bottom: 10px; 
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.welcome {
+	font-size: 0.9em;
+	line-height: 1.2em;	
+	padding-bottom: 2%;
+}
+
+.front {
+	font-size: 0.7em;
+	line-height: 1.2em;
+	text-align: left;
+	}
+
+.mobile-front {
+	display: none;
+}
+
+
+.span4 h3 {
+	text-align: center;
+}
+
+.span4 img {
+	display: block;
+	margin: 6% auto;
+	width: auto;
+	height: 100px;
+	text-align: center;
+}
+
+/* Elements */
+
+.navig {	
+	position: fixed;
+	vertical-align: middle;
+	padding-left: 10px;
+	top: 0%;
+	height: 60px;
+	font-size: 1.9em;
+	text-shadow: 3px 3px #134D8B;
+	line-height: 55px;
+	width: 100%;
+	background-color: #1f60a9;
+	color: #fff;
+	opacity: 0.8;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navig img {
+	height: 40px;
+	vertical-align: middle;
+}
+
+.navig a, .navig a:visited {
+	color: #fff;
+}	
+
+.navig a:hover {
+	color: #ddd;
+}
+
+.footer {
+	position: fixed;
+	vertical-align: middle;
+	top: 95%;
+	width: 100%;
+	text-align: right;
+	height: 65px;
+	line-height: 35px;
+	background-color: #ddd;
+	opacity: 1;
+  -webkit-box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.footer .credit {
+	font-size: 0.8em;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	color: #333;
+	font-family: Times;
+	font-style: italic;
+
+}
+
+.footer .credit img {
+	padding-left: 5px;
+	height: 35px;
+	vertical-align: center;
+}
+
+.footer a, .footer a:visited {
+	color: #333;
+}
+
+.btn-large {
+	font-size: 1em;
+	padding: 15px;
+	margin-top: 10px;
+}
+
+.small-text {
+	margin-left: 5px;
+	font-size: 0.5em;
+	vertical-align: middle;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+ol li {
+	line-height: 1.8em;
+}
+
+
+/* Responsive container settings */
+
+/* iPhone 5, iPhone <= 4 */
+
+@media (max-width: 480px), screen and (device-aspect-ratio: 40/71) {
+
+	.stripe {
+	height: 120%;
+	width: 100%;
+	}
+
+	.wrapper {
+		vertical-align: top;
+    	padding: 60px 15px 0px 15px;
+    	margin-bottom: 10px;
+    	line-height: 1em;
+	}
+
+	.row-fluid .span4 {
+	padding: 1% 2%;
+	background-color: transparent;
+	border: none;
+	border-radius: none;
+	margin-bottom: 10px; 
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+	}
+
+	.navig {
+		height: 40px;
+		font-size: 1.2em;
+		line-height: 40px;
+	}
+
+	.small-text {
+	margin-left: 5px;
+	font-size: 0.3em;
+	}
+
+	.prompt {
+		font-size: 0.8em;	
+	}
+
+	.prompt ol {
+	font-size: 1em;
+	}
+
+	.prompt .btn-line .btn {
+		display: block;
+	}
+
+	.btn {
+		width: 100%;
+	}
+
+	.row-fluid .span4 img {
+		display: none;
+	}
+
+	.row-fluid .span4 {
+	display: none;
+	}
+
+	.mobile-front {
+	display: block;
+	font-size: 0.9em;
+	line-height: 1.2em;
+	text-align: justify;
+	}
+
+	.footer {
+	text-align: center;
+	}
+
+	.footer .credit {
+	font-size: 0.65em;
+	padding-right: 0;
+	}
+
+}
+
+/* Tablets and horizontal phones */
+
+@media (min-width: 481px) and (max-width: 979px) {
+
+	.wrapper {
+    	padding: 65px 15px 0px 15px;
+	}
+
+	.row-fluid .span4 img {
+		display: none;
+	}
+
+}
