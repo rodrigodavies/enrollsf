@@ -29,7 +29,7 @@ a:hover {
 	display:table-cell; 
 	vertical-align: middle;
 	max-width: 900px;
-	padding: 50px 0 0 0;
+	padding: 65px 0 0 0;
 }
 
 /* Text, images and buttons */
@@ -63,7 +63,7 @@ a:hover {
 
 .back img {
 	display: block;
-	margin: 10px auto;
+	margin: 10px auto 30px auto;
 	text-align: center;
 }
 
