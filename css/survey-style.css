@@ -303,4 +303,9 @@ ol li {
 		display: none;
 	}
 
+	.footer {
+	text-align: center;
+	top: 93%;
+	}
+
 }
