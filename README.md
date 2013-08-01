@@ -1,9 +1,9 @@
 enrollsf
 ========
 
-A Jekyll-based responsive web navigator for health choices.
+A Jekyll-based responsive web navigator for health choices. This site is being served at http://rodrigodavies.github.io/enrollsf
 
-Instructions (command line)
+To clone and create your own site:
 
 1. Install Jekyll 
 	gem install jekyll
