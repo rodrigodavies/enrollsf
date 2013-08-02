@@ -1,4 +1,4 @@
 name: EnrollSF
 markdown: redcarpet
 pygments: true
-baseurl: http://rodrigodavies.github.io/enrollsf/
+baseurl: /
