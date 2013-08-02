@@ -307,6 +307,11 @@ ol li {
 	height: 0;
 	}
 
+.footer .lang {
+	font-size: 0.6em;
+	padding: 0 0 0 5px;
+}
+
 }
 
 /* Tablets and horizontal phones */
