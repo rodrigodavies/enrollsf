@@ -132,8 +132,9 @@ a:hover {
 }
 
 .navig img {
-	height: 40px;
+	height: 48px;
 	vertical-align: middle;
+	padding: 0 0 5px 5px;
 }
 
 .navig a, .navig a:visited {
@@ -149,9 +150,8 @@ a:hover {
 	vertical-align: middle;
 	top: 95%;
 	width: 100%;
-	text-align: right;
 	height: 65px;
-	line-height: 35px;
+	line-height: 1.5em;
 	background-color: #ddd;
 	opacity: 1;
   -webkit-box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.2);
@@ -159,7 +159,13 @@ a:hover {
           box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.2);
 }
 
+.footer .lang {
+	float: left;
+	padding: 0 0 0 5px;
+}
+
 .footer .credit {
+	text-align: right;
 	font-size: 0.8em;
 	padding-right: 10px;
 	padding-bottom: 5px;
@@ -233,6 +239,10 @@ ol li {
 		height: 40px;
 		font-size: 1.2em;
 		line-height: 1.2em;
+	}
+
+	.navig img {
+		height: 28px;
 	}
 
 	.small-text {
