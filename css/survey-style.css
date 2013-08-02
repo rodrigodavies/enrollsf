@@ -137,6 +137,12 @@ a:hover {
 	padding: 0 0 5px 5px;
 }
 
+.navig .lang {
+	font-size: 0.5em;
+	float: right;
+	padding: 0 15px 0 0;
+}
+
 .navig a, .navig a:visited {
 	color: #fff;
 }	
@@ -157,11 +163,6 @@ a:hover {
   -webkit-box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.2);
      -moz-box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.2);
           box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.2);
-}
-
-.footer .lang {
-	float: left;
-	padding: 0 0 0 5px;
 }
 
 .footer .credit {
