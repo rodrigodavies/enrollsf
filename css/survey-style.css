@@ -85,6 +85,7 @@ a:hover {
 	font-size: 0.9em;
 	line-height: 1.2em;	
 	padding-bottom: 2%;
+	text-align: center;
 }
 
 .front {
@@ -107,7 +108,12 @@ a:hover {
 	margin: 6% auto;
 	width: auto;
 	height: 100px;
+	text-align: left;
+}
+
+.span6 {
 	text-align: center;
+	padding: 0 10px;
 }
 
 /* Elements */
