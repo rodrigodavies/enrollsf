@@ -214,8 +214,9 @@ ol li {
 }
 
 .map iframe {
-	width: 500;
-	height: 300; 
+	margin-top: 5px;
+	width: 800px;
+	height: 500px; 
 }
 
 
@@ -298,6 +299,11 @@ ol li {
 	line-height: 1.2em;
 	}
 
+
+	.map iframe {
+	width: 97%; 
+	}
+
 	.footer {
 	text-align: center;
 	top: 93%;
@@ -329,6 +335,10 @@ ol li {
 
 	.row-fluid .span4 img {
 		display: none;
+	}
+
+	.map iframe {
+	width: 97%; 
 	}
 
 	.footer {
