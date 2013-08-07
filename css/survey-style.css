@@ -213,6 +213,11 @@ ol li {
 	line-height: 1.8em;
 }
 
+.map iframe {
+	width: 500;
+	height: 300; 
+}
+
 
 /* Responsive container settings */
 
