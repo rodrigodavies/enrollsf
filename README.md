@@ -1,5 +1,7 @@
-enrollsf
+GetCoveredSF
 ========
+
+NB this codebase is now maintained at http://github.com/sfmoci/getcoveredsf
 
 A Jekyll-based responsive web navigator for health choices.
 
